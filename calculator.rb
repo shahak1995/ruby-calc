@@ -10,34 +10,34 @@ puts "Would you like to use (b)asic or (a)dvanced calculator"
   
   case response_2
   when 'a'
-    puts "enter number 1"
+    puts "enter first number"
     num1 = gets.chomp
-    puts "enter number 2"
+    puts "enter second number"
     num2 = gets.chomp
     num3 = num1.to_i + num2.to_i
     puts num3
     
   
   when 's'
-    puts "enter number 1"
+    puts "enter first number"
     num1 = gets.chomp
-    puts "enter number 2"
+    puts "enter second number"
     num2 = gets.chomp
     num3 = num1.to_i - num2.to_i
     puts num3
   
   when 'm'
-    puts "enter number 1"
+    puts "enter first number"
     num1 = gets.chomp
-    puts "enter number 2"
+    puts "enter second number"
     num2 = gets.chomp
     num3 = num1.to_i * num2.to_i
     puts num3
 
   when 'd'
-    puts "enter number 1"
+    puts "enter first number"
     num1 = gets.chomp
-    puts "enter number 2"
+    puts "enter second number"
     num2 = gets.chomp
     num3 = num1.to_i / num2.to_i
     puts num3
@@ -45,9 +45,9 @@ puts "Would you like to use (b)asic or (a)dvanced calculator"
 
   case response_3
   when 'p'
-    puts "enter number 1"
+    puts "enter first number"
     num1 = gets.chomp
-    puts "enter number 2"
+    puts "enter second number"
     num2 = gets.chomp
     num3 = num1.to_i ** num2.to_i
     puts num3
